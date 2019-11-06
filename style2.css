@@ -1,7 +1,18 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #f5f7fb;
+}
+
 #search_blogs {
   width: 100%;
   height: 10%;
-  background-color: #3c3e44;
+  background-color: #424347;
   min-height: 60px;
   position: relative;
 }
@@ -16,7 +27,7 @@
   padding-left: 10px;
   width: 35%;
   min-width: 100px;
-  background-color: #403f46;
+  background-color: #535357;
   box-shadow: 0 0.2px 0.8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -142,4 +153,36 @@
   margin-left: 15px;
   font-size: 15px;
   margin-top: 10px;
+}
+
+::placeholder {
+  color: #ffffff;
+  text-align: right;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #ffffff;
+  text-align: right;
+}
+
+::-ms-input-placeholder {
+  color: #ffffff;
+  text-align: right;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6c6d74;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6c6d74;
 }

@@ -3,40 +3,6 @@ body {
   height: 100%;
   background-color: #f5f7fb;
 }
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #6c6d74;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #6c6d74;
-}
-.ontop {
-  display: none;
-}
-#popup {
-  width: 300px;
-  height: 200px;
-  position: absolute;
-  color: #000000;
-  background-color: #ffffff;
-  /* To align popup window at the center of screen*/
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left: -150px;
-}
-
 body {
   background-color: #f5f7fb;
   overflow: auto;
@@ -86,6 +52,20 @@ body {
   box-shadow: 0 0.1px 0px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   float: left;
   border: 0px solid #00000000;
+}
+.ontop {
+  display: none;
+}
+#popup {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  color: #000000;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -150px;
 }
 .sign_in {
   float: right;
@@ -223,7 +203,7 @@ body {
   text-align: center;
   height: 16px;
   font-size: 16px;
-  color: #4c4c4c;
+  color: #4e4e4e;
   margin-top: 6px;
 }
 .social_section img {
@@ -231,8 +211,8 @@ body {
   height: 40px;
   margin-right: 10px;
   border-radius: 50%;
-  padding: 8px;
-  background-color: #2b2725;
+  padding: 10px;
+  background-color: #252424;
 }
 .login_div {
   position: absolute;
@@ -241,7 +221,7 @@ body {
   background-color: #ffffff;
   height: 500px;
   width: 400px;
-  background-color: #efefef;
+  background-color: #ececec;
   margin-left: 23%;
 }
 .login_labels {
@@ -261,7 +241,7 @@ body {
   margin-right: 10px;
   height: 40px;
   width: 40px;
-  background-color: #efefef;
+  background-color: #ececec;
 }
 .email_text {
   font-size: 25px;
@@ -288,11 +268,11 @@ body {
   font-size: 25px;
   height: 50px;
   width: 50%;
-  color: #f6f7fb;
+  color: #f2f3f7;
   border: none;
   outline: none;
   border-radius: 30px;
-  background-color: #3d3e43;
+  background-color: #3f4044;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -305,7 +285,7 @@ body {
   width: 510px;
   margin-left: 23%;
   overflow: auto;
-  background-color: #f6f7fc;
+  background-color: #f1f1f1;
 }
 .signup_head {
   font-size: 30px;
@@ -346,4 +326,16 @@ body {
   width: 88%;
   background-color: white;
   color: black;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #6c6d74;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6c6d74;
 }

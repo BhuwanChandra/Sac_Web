@@ -2,24 +2,6 @@
 <html>
   <head>
     <title>Home Page</title>
-    <script type="text/javascript">
-      function pop(div) {
-        document.getElementById(div).style.display = "block";
-      }
-      function hide(div) {
-        document.getElementById(div).style.display = "none";
-      }
-      function popSignup(div, div2) {
-        document.getElementById(div).style.display = "block";
-        document.getElementById(div2).style.display = "none";
-      }
-      document.onkeydown = function(evt) {
-        evt = evt || window.event;
-        if (evt.keyCode == 27) {
-          hide("popDiv");
-        }
-      };
-    </script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -63,9 +45,15 @@ Rakesh Kumar</textarea
       </div>
       <div class="blog">
         <img src="androidsac.png" />
-        <p id="title" class="blog_text" style="font-size: 24px;font-weight: 500;">
-          Build A Simple Blog App With Firebase In <br> Android Studio
-        </p><br>
+        <p
+          id="title"
+          class="blog_text"
+          style="font-size: 24px;font-weight: 500;"
+        >
+          Build A Simple Blog App With Firebase In <br />
+          Android Studio
+        </p>
+        <br />
         <textarea
           id="date"
           style="margin-top: 48px;margin-left: -420px;"
@@ -161,8 +149,8 @@ Aman Raj Sunderam</textarea
       <br /><br />
       <center>
         <img src="facebook_image_link.png" id="facebook_link" />
-        <img src="twitter_image_link.jpg" id="twitter_link" />
-        <img src="instagram_image_link.jpg" id="instagem_link" />
+        <img src="twitter_image_link.png" id="twitter_link" style="background-color: #ffffff;" />
+        <img src="instagram_image_link.png" id="instagem_link" style="background-color: #ffffff;" />
       </center>
     </div>
     <center>
@@ -180,14 +168,16 @@ Aman Raj Sunderam</textarea
           name="email"
           class="login_input"
           placeholder="Enter email"
-        required/>
+          required
+        />
         <p class="pass_text"><strong>Password</strong></p>
         <input
           type="password"
           name="password"
           class="login_input"
           placeholder="Enter Password"
-        required/>
+          required
+        />
         <center><button class="login_btn">Login</button></center>
         <center>
           <p style="font-size: 15px;margin-top: 25px;">
@@ -217,8 +207,8 @@ Aman Raj Sunderam</textarea
           id="firstname"
           name="firstname"
           placeholder="First Name"
-					class="input_half"
-					required
+          class="input_half"
+          required
         />
         <input
           type="text"
@@ -226,31 +216,31 @@ Aman Raj Sunderam</textarea
           name="lastname"
           placeholder="Last Name"
           class="input_half_2"
-					required
-					/>
+          required
+        />
         <input
           type="email"
           id="email"
           name="email"
           placeholder="Enter Email"
-					class="input_full"
-					required
+          class="input_full"
+          required
         />
         <input
           type="password"
           id="password"
           name="password"
           placeholder="Enter Password`"
-					class="input_full"
-					required
+          class="input_full"
+          required
         />
         <input
           type="password"
           id="confirmpassword"
           name="confirmpassword"
           placeholder="Confirm Password"
-					class="input_full"
-					required
+          class="input_full"
+          required
         />
         <center>
           <button class="login_btn" onclick="javascript:VALIDATE()">
@@ -283,5 +273,23 @@ Aman Raj Sunderam</textarea
         </center>
       </div>
     </center>
+    <script type="text/javascript">
+      function pop(div) {
+        document.getElementById(div).style.display = "block";
+      }
+      function hide(div) {
+        document.getElementById(div).style.display = "none";
+      }
+      function popSignup(div, div2) {
+        document.getElementById(div).style.display = "block";
+        document.getElementById(div2).style.display = "none";
+      }
+      document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 27) {
+          hide("popDiv");
+        }
+      };
+    </script>
   </body>
 </html>
