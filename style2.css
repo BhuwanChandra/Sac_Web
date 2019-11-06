@@ -104,7 +104,7 @@ body {
 }
 
 .navigation {
-  background-color: #1a1818 !important;
+  background-color: #1a1818;
   color: #676566;
   float: right;
   width: 200px;
@@ -116,6 +116,7 @@ body {
   font-size: 12px;
   height: 26px;
   width: 143px;
+  border-top-right-radius: 15px;
   background-color: #1a1818;
   padding-top: 14px;
   padding-left: 10px;
